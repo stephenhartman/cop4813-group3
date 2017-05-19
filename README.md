@@ -1,9 +1,9 @@
-# cop4813-group3
+# cop4813-group3 #
 Music Review Site
-# Requirements
-    Microsoft Web Application
-    Basic User Manual
-    Entity-Relationship Diagram
+# Requirements #
+- Microsoft Web Application
+- Basic User Manual
+- Entity-Relationship Diagram
 1. Google Drive Link for Collaboration
     - https://drive.google.com/drive/folders/0BxpE8skL1O0KWUhpam1xRjFQWGM
     - https://docs.google.com/document/d/1EfKfce33aYSIJK5LEOK-drIieR2KaW-cvMYloJlEGt4/edit#heading=h.z6ne0og04bp5
@@ -32,15 +32,15 @@ Music Review Site
                 - Review
                 - Validation ( One or the other)
                 
-# Wish List
-    Spotify API Integration to add albums
-    Search Bar
-    - Rate
-    - Filter
-    - Rating Sort
-# Proposal Requirements
-    1. Team Members
-    1. Description of the site (Small scope statement)
-    1. Name of site or application
+# Wish List #
+   - Spotify API Integration to add albums
+   - Search Bar
+        - Rate
+        - Filter
+        - Rating Sort
+# Proposal Requirements #
+1. Team Members
+1. Description of the site (Small scope statement)
+1. Name of site or application
 
   
