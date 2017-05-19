@@ -6,6 +6,7 @@ Music Review Site
     Entity-Relationship Diagram
 1. Google Drive Link for Collaboration
     - https://drive.google.com/drive/folders/0BxpE8skL1O0KWUhpam1xRjFQWGM
+    - https://docs.google.com/document/d/1EfKfce33aYSIJK5LEOK-drIieR2KaW-cvMYloJlEGt4/edit#heading=h.z6ne0og04bp5
 1. Design and Styling
     - https://xd.adobe.com/view/f352a160-7037-4a0c-828c-8572d07f621e/
 1. Menu
@@ -33,6 +34,10 @@ Music Review Site
                 
 # Wish List
     Spotify API Integration to add albums
+    Search Bar
+    - Rate
+    - Filter
+    - Rating Sort
 # Proposal Requirements
     1. Team Members
     1. Description of the site (Small scope statement)
