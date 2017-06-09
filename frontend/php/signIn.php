@@ -78,12 +78,16 @@
    <!--THIS IS WHERE ALL CODE GOES-->
    <div id="main">
      <div class="container">
-       <form method="post" action ="authenticate.php">
+       <?php
+        echo "<h1> This is the Registration page</h1>";
+        ?>
+       <!-- <form method="post" action ="authenticate.php">
          <label for="username">Username:</label>
          <input type="text" class="form-control" id="username" name="username"/>
          <label for="password">Password:</label>
          <input type="password" class="form-control" id="password" name="password"/>
-       </form>
+         <input type="Submit" class="btn btn-lg btn-block btn-login" name="login" value="Sign in"/>
+       </form> -->
      </div>
    </div>
  </body>
