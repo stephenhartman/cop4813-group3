@@ -27,7 +27,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
     <div class="row">
-      <a href="home.php">Home</a>
+      <a href="main.html">Home</a>
     </div>
     <!-- <div class="row">
       <a href="php/signIn.php">Sign in</a>
@@ -36,7 +36,7 @@
       <a href="php/register.php">Register</a>
     </div> -->
     <!--Below rows are to be added in logged in page-->
-    <div class="row">
+    <!-- <div class="row">
       <a href="myProfile.php">My Profile</a>
     </div>
       <div class="row">
@@ -44,7 +44,7 @@
     </div>
       <div class="row">
       <a href="logOut.php">Log out</a>
-    </div>
+    </div> -->
   </div>
   <!--Navbar-->
   <nav class="navbar navbar-inverse">
@@ -74,12 +74,38 @@
 
 
   <!--THIS IS WHERE ALL CODE GOES-->
-  <div id="main">
-    <div class="container">
-      <?php
-       echo "<h1> This is the Log Out page </h1>";
-       ?>
-    </div>
+  <div id="mainLogOut">
+      <!--* * * * * * * * * * * * * *EDITED BY ADRIAN * * * * * * * * * * *-->
+      <div class="row">
+        <div class="col-md-9">
+        </div>
+        <div class="col-md-2 container-relog-in alert alert-dismissable fade in">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <br>
+          <div class="alert alert-success alert-dismissable fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Log out successful!</strong> Thank you for visiting our website. Please visit us again.
+          </div>
+          <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username"/>
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password"/>
+            <br>
+            <button type="Submit" class="btn btn-lg btn-block btn-login-again" name="signInAgain" formaction="authenticateLogOut.php">Sign In Again</button>
+            <br>
+          </form>
+        </div>
+        <div class="col-md-1">
+        </div>
+
+      </div>
+      <div id="styled_video_container">
+          <video id="spotifyLogOut" autoplay loop src="../images/brunomars2.mp4" type="video/mp4">
+          </video>
+      </div>
+
+
   </div>
 </body>
 </html>

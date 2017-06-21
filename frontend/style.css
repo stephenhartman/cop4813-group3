@@ -87,3 +87,50 @@
 .detailer{
   color:white
 }
+
+/* * * * * * Log Out * * * * * * */
+#logOutUserName{
+color:white;
+
+}
+
+#logOutPassword{
+color:white;
+}
+
+.btn-login-again{
+background-color: #5DC327;
+
+}
+
+.alert-logout{
+  color: white;
+  background-color:
+}
+
+#spotifyLogOut{
+width: auto;
+height: auto;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0.5;
+z-index: -3;
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+/*min-width: 100%;
+min-height: 100%*/
+
+}
+
+#styled_video_container{
+  z-index: -3;
+}
+
+.container-relog-in{
+  background-color: gray;
+  margin:0 auto;
+
+}
+
