@@ -27,7 +27,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
     <div class="row">
-      <a href="main.html">Home</a>
+      <a href="../main.html">Home</a>
     </div>
     <!-- <div class="row">
       <a href="php/signIn.php">Sign in</a>
