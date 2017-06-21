@@ -134,3 +134,60 @@ min-height: 100%*/
 
 }
 
+/* * * * * * * addAlbum* * * * * * * * * * */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*min-width: 100%;
+  min-height: 100%;*/
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.btn-add-album{
+  background-color: #279b4f;
+  font-size: 30px;
+}
+
+.btn-add-album:hover{
+  background-color: #5DC327;
+}
+
+#uploadResult{
+  background-color: #5DC327;
+  text-align: center;
+  border-radius: 5%;
+  /* DEBUG*/
+  color: black;
+  border-width: thick;
+  border-color: white;
+
+}
+
+#img-upload{
+  width: 20%;
+  height: 20%;
+}
+
+#img-upload-reflect{
+  width: 50%;
+  height: 50%;
+}
+
+.small-reflect{
+  color: white;
+}
+
+
