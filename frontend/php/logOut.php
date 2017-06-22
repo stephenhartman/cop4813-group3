@@ -98,8 +98,17 @@
         </div>
         <div class="col-md-1">
         </div>
+      </div>
+      <div class="row" id="bottomRow">
+
+        <div class="col-md-12">
+        <h1 class="small-logout">Versace on the Floor - Bruno Mars </h1>
+      </div>
 
       </div>
+
+      </div>
+
       <div id="styled_video_container">
           <video id="spotifyLogOut" autoplay loop src="../images/brunomars2.mp4" type="video/mp4">
           </video>
