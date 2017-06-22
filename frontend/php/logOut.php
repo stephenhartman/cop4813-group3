@@ -20,7 +20,8 @@
   <!--Custom JS-->
   <script src="../js/iconBar.js"></script>
   <script src="../js/sidebarOpacity.js"></script>
-
+  <script src="../js/videoClick.js"></script>
+  <script src="../js/hideShow.js"></script>
 </head>
 <body id="body">
   <!--Hidden Side Nav-->
@@ -97,6 +98,9 @@
             <button type="Submit" class="btn btn-lg btn-block btn-login-again" name="signInAgain" formaction="authenticateLogOut.php">Sign In Again</button>
             <br>
           </form>
+          <button onclick="soundOn()" class="btn btn-lg btn-block btn-login-again" name="Unmute" id="Unmute">Unmute Sound</button>
+          <button onclick="soundOff()" class="btn btn-lg btn-block btn-login-again" name="Mute" id="Mute">Mute Sound</button>
+          <br>
         </div>
         <div class="col-md-1">
         </div>
@@ -104,7 +108,7 @@
       <div class="row" id="bottomRow">
 
         <div class="col-md-12">
-        <h1 class="small-logout">Versace on the Floor - Bruno Mars </h1>
+        <h1 class="small-logout">Versace on the Floor - Bruno Mars</h1>
       </div>
 
       </div>
