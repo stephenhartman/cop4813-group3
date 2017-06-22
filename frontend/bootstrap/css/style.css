@@ -1,0 +1,207 @@
+/* * * * body workaround *  * * * * */
+#body{
+  background-color:black;
+  color: white;
+}
+
+/* * * * * * * * *IconBar* * * * * * * */
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+/* * * * * * * Icon Bar Button Color * * * * * * * * */
+#iconBar{
+  background-color: #5DC327;
+  border-color: white;
+  left: 0;
+
+
+}
+
+/* * * * * * Horizontal Menu Slide* * * * * * * * * * */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5DC327;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .row:hover {
+  background-color: #046d04;
+}
+
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* * * * * * * Carousel * * * * * * */
+.carousel-image{
+  height:200px;
+  width: 200px;
+}
+
+#myCarousel{
+  width: 100%;
+  height: auto;
+}
+
+/* * * * * * Details * * * * * * */
+.detailer{
+  color:white
+}
+
+/* * * * * * Log Out * * * * * * */
+#logOutUserName{
+color:white;
+
+}
+
+#logOutPassword{
+color:white;
+}
+
+.btn-login-again{
+background-color: #5DC327;
+
+}
+
+.alert-logout{
+  color: white;
+  background-color:
+}
+
+#spotifyLogOut{
+width: auto;
+height: auto;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0.5;
+z-index: -3;
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+/*min-width: 100%;
+min-height: 100%*/
+
+}
+
+#styled_video_container{
+  z-index: -3;
+}
+
+.container-relog-in{
+  background-color: gray;
+  margin:0 auto;
+
+}
+
+#bottomRow{
+  position:absolute;
+  bottom:0;
+  background-color: black;
+  opacity: 0.7;
+  font-size: 50px;
+
+}
+
+
+
+.small-logout{
+  color: white;
+}
+
+/* * * * * * * addAlbum* * * * * * * * * * */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*min-width: 100%;
+  min-height: 100%;*/
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.btn-add-album{
+  background-color: #279b4f;
+  font-size: 30px;
+}
+
+.btn-add-album:hover{
+  background-color: #5DC327;
+}
+
+#uploadResult{
+  background-color: #5DC327;
+  text-align: center;
+  border-radius: 5%;
+  /* DEBUG*/
+  color: black;
+  border-width: thick;
+  border-color: white;
+
+}
+
+#img-upload{
+  width: 20%;
+  height: 20%;
+}
+
+#img-upload-reflect{
+  width: 50%;
+  height: 50%;
+}
+
+.small-reflect{
+  color: white;
+}
