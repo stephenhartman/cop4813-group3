@@ -1,7 +1,6 @@
 # cop4813-group3 #
 Music Review Site
 # Requirements #
-- Microsoft .NET Framework Web Application
 - Basic User Manual
 - Entity-Relationship Diagram
 1. Google Drive Link for Collaboration
