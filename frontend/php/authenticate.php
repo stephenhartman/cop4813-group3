@@ -1,17 +1,26 @@
 <?php
-	session_start();
+    include("databaseConnect.php");
 
-	$myuser = $_POST["username"];
-	$mypass = $_POST["password"];
+    session_start();
 
-	$_SESSION["username"] = $username;
+    $myuser = $_POST["username"];
+    $mypass = $_POST["password"];
+
+    if($username == "") {
+        header("Location: signIn.php?error=1");
+    }
+    if($password == "") {
+	header("Location: signIn.php?error=2");
+    }
+	
+    $_SESSION["username"] = $username;
 
     $query = "SELECT username, password FROM Users";
     $result = mysql_query($databaseConnect, $query);
 
     while ($record = mysql_fetch_array($result)) {
         $username = $record[0];
-		    $password = $record[1];
+	$password = $record[1];
 
         if($username == $myuser)
         {
@@ -21,10 +30,10 @@
             exit;
           }
           else {
-            header("Location: signIn.php?error=2;
+            header("Location: signIn.php?error=2");
             exit;
           }
         }
-	  }
-	mysqli_close($databaseConnect);
+    }
+mysqli_close($databaseConnect);
 ?>
