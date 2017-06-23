@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+$username = $SESSION["username"];
+if ($username == ""){
+  header("Location: signIn.php?error=3");
+  die();
+}
+
+include("databaseConnect.php");
+
+?>
  <!DOCTYPE html>
  <html>
  <head>
