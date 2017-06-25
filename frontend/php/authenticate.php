@@ -35,5 +35,6 @@
           }
         }
     }
-mysqli_close($databaseConnect);
+    header("Location: signIn.php?error=1");
+    mysqli_close($databaseConnect);
 ?>
